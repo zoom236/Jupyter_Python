@@ -70,4 +70,17 @@
 ### 출력 
 
  <p>입력으로 주어진 단어가 몇 개의 크로아티아 알파벳으로 이루어져 있는지 출력한다.</p>
+ 
+### 해설 
+ <p> replace(변환할 문자, 변환할 문자내용) </p>
+<p> 변환과정</p>
+<p>ljes=njak</p>
+<p>ljes=njak</p>
+<p>ljes=njak</p>
+<p>ljes=njak</p>
+<p>*es=njak</p>
+<p>*es=*ak</p>
+<p>*e**ak</p>
+<p>*e**ak</p>
+	
 
