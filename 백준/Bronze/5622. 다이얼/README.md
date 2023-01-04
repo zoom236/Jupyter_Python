@@ -37,7 +37,7 @@
 <p> tele주소의 값이 dial요소에 들어가 있으면 dial 요소의 인덱스 번호 + 3 한 값을 time에 더하여 time에 대입한다. </p>
 <p> for문이 다 돌고 난 후 마지막 time 값 출력하여 시간을 찾는다. </p>
 
-<p>다른 풀이 </p>
+### 다른 풀이 
 <p>alpabet_list = ['ABC','DEF','GHI','JKL','MNO','PQRS','TUV','WXYZ']</p>
 <p>word = input()</p>
 
