@@ -32,3 +32,21 @@
 
  <p>첫째 줄에 다이얼을 걸기 위해서 필요한 최소 시간을 출력한다.</p>
 
+### 해설
+<p> tele의 갯수만큼 for문을 돌리고 dial 요소에 번호를 부여한다. </p>
+<p> tele주소의 값이 dial요소에 들어가 있으면 dial 요소의 인덱스 번호 + 3 한 값을 time에 더하여 time에 대입한다. </p>
+<p> for문이 다 돌고 난 후 마지막 time 값 출력하여 시간을 찾는다. </p>
+
+<p>다른 풀이 </p>
+<p>alpabet_list = ['ABC','DEF','GHI','JKL','MNO','PQRS','TUV','WXYZ']</p>
+<p>word = input()</p>
+
+<p>time = 0</p>
+<p>for unit in alpabet_list :  </p>
+<p>    for i in unit:  # alpabet 리스트에서 각 요소를 꺼내서 한글자씩 분리</p>
+<p>        for x in word :  # 입력받은 문자를 하나씩 분리</p>
+<p>            if i == x :  # 두 알파벳이 같으면</p>
+<p>                time += alpabet_list.index(unit) +3  # time = time + index +3</p>
+<p>print(time)</p>
+<p> 2중 for문 의미 : 알파벳 리스트 원소를 각각의 알파벳으로 분리하여 변수 i에 선언</p>
+<p> 3중 for문 의미 : 입력받은 문자를 하나씩 분리 하여 변수 x에 선언 </p>
