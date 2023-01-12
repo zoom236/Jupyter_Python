@@ -1,13 +1,12 @@
-H,M = map(int,input().split(' '))
-cook = int(input())    
+H,M = map(int,input().split())
+cook = int(input())
+M2 = cook + M    
+if M2 >= 60 :
+    H += (M2 // 60) 
+    M = (M2) % 60
+    if H >= 24 :
+        H -= 24
+else :
+    M = M2     
 
-H += cook // 60 
-M += cook % 60 
-
-if M >= 60 : 
-    H += 1
-    M -= 60 
-
-if H >= 24 :
-    H -= 24
 print(H,M)
