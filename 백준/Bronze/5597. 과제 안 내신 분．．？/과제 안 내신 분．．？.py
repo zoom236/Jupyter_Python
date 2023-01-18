@@ -1,7 +1,8 @@
-check =[i for i in range(1,31)]
-for n in range(28):
-    student = int(input())
-    check.remove(student)
+idx = [number for number in range(1,31)]
+for i in range(28) :
+    students = int(input())
+    idx.remove(students)
 
-print(min(check))
-print(max(check))
+print(min(idx),max(idx), sep='\n' )
+
+    
