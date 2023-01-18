@@ -1,10 +1,8 @@
-test = int(input())
-score = list(map(int,input().split()))
-max_score = max(score)
+N = int(input())
+score = list(map(int, input().split()))
+M = max(score)
 
-for i in range(test) :
-    score[i] = score[i] / max_score * 100 
-    
-s = sum(score)
-    
-print(s/test)
+for i in range(len(score)) :
+        score[i] = score[i]/M *100
+        
+print(sum(score)/N)
