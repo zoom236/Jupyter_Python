@@ -1,8 +1,8 @@
-n = int(input())
-for i in range(n) :
-    r,s = input().split()
-    r = int(r)
-    s = str(s)
-    for j in range(len(s)) :
-        print(r*s[j], end='')
-    print()    
+Test = int(input())
+
+for case in range(Test) :
+    a,b = input().split()
+    for i in range(len(b)):
+        print(b[i]*int(a), end = '')
+    print() 
+    
