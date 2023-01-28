@@ -1,8 +1,7 @@
-a,b = map(str,input().split())
-a = a[2] + a[1] +a[0]
-b = b[2] + b[1] +b[0]
-if a < b :
+a,b = input().split()
+a = int(a[::-1])
+b = int(b[::-1])
+if a<b :
     print(b)
 else :
-    print(a) 
-
+    print(a)
